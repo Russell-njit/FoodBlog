@@ -1,0 +1,10 @@
+#box1{
+    background-color: rgb(181, 103, 103);
+    background-position: center;
+    text-align: center;
+}
+.intro{
+    background-color: rgb(244, 183, 183);
+    text-align: center;
+    height: 28px;
+}
