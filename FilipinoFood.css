@@ -1,0 +1,42 @@
+.Adobo{
+    display: inline-block;
+    margin: 10px;
+    border: black 1px solid;
+    padding: 15px;
+    background-color: #90745b;
+}
+.Chicken{
+    display: inline-block;
+    margin: 10px;
+    border: black 1px solid;
+    padding: 10px;
+    background-color: #90745b;
+}
+.Pancit{
+    display: inline-block;
+    margin: 10px;
+    border: black 1px solid;
+    background-color: #ffee8c;
+    padding: 15px;
+}
+.Noodle{
+    display: inline-block;
+    margin: 10px;
+    border: black 1px solid;
+    background-color: #ffee8c;
+    padding: 10px;
+}
+.Pork{
+    display: inline-block;
+    margin: 10px;
+    border: black 1px solid;
+    background-color: #fbd7bb;
+    padding: 15px;
+}
+.Sinigang{
+    display: inline-block;
+    margin: 10px;
+    border: black 1px solid;
+    background-color: #fbd7bb;
+    padding: 10px;
+}
