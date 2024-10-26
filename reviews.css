@@ -1,0 +1,57 @@
+header{
+    background-color: #F4A166;
+    height: 60px;
+    left:5px;
+    right:5px;
+    padding: 10px;
+    border-radius: 10px;
+    position:fixed;
+}
+
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px; 
+}
+*{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.dish_image{margin:0px 100% 30px 215px; display:inline; float:left; width:400px; padding:10px;background-color: #ffe8cb;border: 5px double #c48e64;}
+h1{text-align: center;}
+.dish_text{margin-left:175px; margin-right:150px;font-size: 30px;}
+.dish_name{font-size:50px;font-weight: bold; margin-top:45px; text-align: center;}
+.cuisine_section{font-size:60px;font-weight:bold; margin:75px;text-align:center;}
+
+body{background-image:url('background-image.png');background-size:cover;background-attachment: fixed;}
+
+.island-text-1{z-index:-1; background-color:white; position:absolute; width:850px; height:2900px; border-radius:60px; left:305px; top:275px; border: 2px solid #c48e64;}
+.island-text-2{z-index:-1; background-color:white; position:absolute; width:850px; height:2650px; border-radius:60px; top:2950px; border: 2px solid #c48e64;}
+.island-text-3{z-index:-1; background-color:white; position:absolute; width:850px; height:2450px; border-radius:60px; top:2700px; border: 2px solid #c48e64;}
+
+
+ .footer{z-index:-1; margin-top:150px; width:100vw; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:8350px;
+display:flex; flex-direction:row;justify-content:space-evenly;}
+
+.division1{display:inline-block; width:200px;text-align:center;}
+.division2{display:inline-block; width:200px;text-align:center;}
+.division3{display:inline-block;width:200px;text-align:center;}
+
+h3{font-weight:300;margin-bottom:30px;}
+.division1 a{display:block; text-decoration:none; color:#efefef;margin-bottom:10px;}
+.for-us-to-review{width:200px;height:75px;border-radius:10px;text-align:center;margin-bottom:25px;outline:none;border:none;}
+.email{width:175px;height:20px;border-radius:6px;text-align:center;margin-bottom:20px;outline:none;border:none;}
+form button{background:transparent; border: 2px solid #fff; color: #fff;border-radius:30px;padding:10px 30px; font-size:15px;}
+.social-media-icons-footer{margin-top:45px;}
+
+
+
+/*STICKING FOOTER TO THE BOTTOM (via Guide/ it doesn't work :/)
+#page-container{position:relative;min-height:100vh;}
+#content-wrap{padding-bottom:2.5rem;}  ------ footer height
+.footer{position:absolute;margin-top:150px;bottom:0;width:100%;height:2.5rem; padding: 100px 15%;background-color:black;} */
