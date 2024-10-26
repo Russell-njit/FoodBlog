@@ -36,3 +36,6 @@ h1{text-align: center;font-size}
 .dish_text{margin-left:550px; margin-right:550px;font-size: 30px;}
 .dish_name{font-size:60px;font-weight: bold;margin-left:550px;margin-top:75px;}
 .cuisine_section{font-size:69px;font-weight:bold;margin-top: 100px;}
+/* background image*/
+img{top:0px; left:0px; position:absolute; width: 100vw; opacity:0.7;}
+#bg-image{position:relative; top:0px; left:0px; width:100vw; background-color: #f5c382;}
