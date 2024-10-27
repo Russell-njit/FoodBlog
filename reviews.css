@@ -23,10 +23,9 @@ nav ul li a{
 *{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 .dish_image{margin:0px 100% 30px 215px; display:inline; float:left; width:400px; padding:10px;background-color: #ffe8cb;border: 5px double #c48e64;}
-h1{text-align: center;}
-.dish_text{margin-left:175px; margin-right:150px;font-size: 30px;}
-.dish_name{font-size:50px;font-weight: bold; margin-top:45px; text-align: center;}
-.cuisine_section{font-size:60px;font-weight:bold; margin:75px;text-align:center;}
+.dish_text{margin-left:175px; margin-right:150px;font-size: 30px; color:#413931;}
+.dish_name{font-size:50px;font-weight: bold; margin-top:45px; text-align: center;color:#413931;}
+.cuisine_section{font-size:60px;font-weight:bold; margin:75px;text-align:center;color:#413931;}
 
 body{background-image:url('background-image.png');background-size:cover;background-attachment: fixed;}
 
@@ -35,7 +34,7 @@ body{background-image:url('background-image.png');background-size:cover;backgrou
 .island-text-3{z-index:-1; background-color:white; position:absolute; width:850px; height:2450px; border-radius:60px; top:2700px; border: 2px solid #c48e64;}
 
 
- .footer{z-index:-1; margin-top:150px; width:100vw; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:8350px;
+ .footer{z-index:-1; margin-top:150px; width:100vw; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:8300px;
 display:flex; flex-direction:row;justify-content:space-evenly;}
 
 .division1{display:inline-block; width:200px;text-align:center;}
