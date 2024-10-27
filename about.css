@@ -1,8 +1,11 @@
 header{
-    background-color: rgb(170, 179, 150);
-    height: 50px;
+    background-color: #F4A166;
+    height: 60px;
+    left:5px;
+    right:5px;
     padding: 10px;
     border-radius: 10px;
+    position:fixed;
 }
 
 nav ul li{
@@ -17,24 +20,16 @@ nav ul li a{
     color: white;
     font-size: 18px; 
 }
+*{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
-#title{
-    background-color: rgb(181, 103, 103);
-    background-position: center;
-    height: 50px;
-    width: 600px;
-    margin: auto;
-    border-radius: 10%;
+h2{text-align:center;font-size:45px;color:#413931;}
+p{text-decoration: none;margin:20px 35px;font-size:30px;color:#413931;}
+@media (width:270px) {div{transition:all;transition-duration:2s;}}
+
+.big-box{z-index:-1; background-color:white; position:absolute;  width:850px; height:850px; border-radius:60px; left:305px; top:150px; border: 2px solid #c48e64;}
+
+a{
     text-align: center;
-    color: white;
+    display: block;
 }
 
-h2{
-    text-align: center;
-}
-
-p{
-    width: 600px;
-    margin: auto;
-    text-align: center;
-}
