@@ -30,7 +30,7 @@ nav ul li a{
 body{background-image:url('background-image.png');background-size:cover;background-attachment: fixed;}
 
 .island-text-1{z-index:-1; background-color:white; position:absolute; width:850px; height:2900px; border-radius:60px; left:305px; top:275px; border: 2px solid #c48e64;}
-.island-text-2{z-index:-1; background-color:white; position:absolute; width:850px; height:2650px; border-radius:60px; top:2950px; border: 2px solid #c48e64;}
+.island-text-2{z-index:-1; background-color:white; position:absolute; width:850px; height:2900px; border-radius:60px; top:2950px; border: 2px solid #c48e64;}
 .island-text-3{z-index:-1; background-color:white; position:absolute; width:850px; height:2450px; border-radius:60px; top:2700px; border: 2px solid #c48e64;}
 
 
