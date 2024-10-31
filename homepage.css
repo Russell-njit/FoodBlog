@@ -11,7 +11,7 @@ header{
 nav ul li{
     list-style:none;
     display: inline-block;
-    margin-left: 75px;
+    margin-left: 110px;
     margin-right: 75px;
 }
 
@@ -67,5 +67,5 @@ a{text-decoration-line: none;color:#c48e64;}
     position: relative;
     top: 100px;
 } /* I think we should label what each of these belong to eg: #ramengami belongs in Restaraunts. Just in case we need to transfer anything to a new css to tidy it all up */
-#fusionbitesofindia{ position: relative; top: 100px;}  
+#fusionbitesofindia{ position: relative;top: 100px;}  
     

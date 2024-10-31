@@ -11,7 +11,7 @@ header{
 nav ul li{
     list-style:none;
     display: inline-block;
-    margin-left: 75px;
+    margin-left: 110px;
     margin-right: 75px;
 }
 
@@ -31,10 +31,10 @@ body{background-image:url('background-image.png');background-size:cover;backgrou
 
 .island-text-1{z-index:-1; background-color:white; position:absolute; width:850px; height:2900px; border-radius:60px; left:305px; top:275px; border: 2px solid #c48e64;}
 .island-text-2{z-index:-1; background-color:white; position:absolute; width:850px; height:3100px; border-radius:60px; top:2950px; border: 2px solid #c48e64;}
-.island-text-3{z-index:-1; background-color:white; position:absolute; width:850px; height:2450px; border-radius:60px; top:3150px; border: 2px solid #c48e64; }
+.island-text-3{z-index:-1; background-color:white; position:absolute; width:850px; height:2850px; border-radius:60px; top:3150px; border: 2px solid #c48e64; }
 
 
- .footer{z-index:-1; margin-top:150px; width:100vw; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:8700px;
+ .footer{z-index:-1; margin-top:150px; width:100vw; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:9200px;
 display:flex; flex-direction:row;justify-content:space-evenly;}
 
 .division1{display:inline-block; width:200px;text-align:center;}
