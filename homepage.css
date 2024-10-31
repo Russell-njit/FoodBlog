@@ -1,4 +1,5 @@
 header{
+    z-index:1;
     background-color: #F4A166;
     height: 60px;
     left:5px;
@@ -31,7 +32,7 @@ p{text-decoration: none; font-size:30px;color:#413931;margin-left: 20px; margin-
 a{text-decoration-line: none;color:#c48e64;}
 @media (width:270px) {div{transition:all;transition-duration:2s;}}
 
-.big-box{z-index:-1; background-color:white; position:absolute;  width:1050px; height:1500px; border-radius:60px; left:305px; top:275px; border: 2px solid #c48e64;}
+.big-box{z-index:-1; background-color:white; position:absolute;  width:850px; height:1500px; border-radius:60px; left:305px; top:275px; border: 2px solid #c48e64;}
 .mid-box1{width:100%; background-color:transparent;height:250px;display:flex; flex-direction:row; justify-content:space-evenly; margin-bottom:10px;margin-top:30px;}
 .pic1{width:270px;height:250px;background-image: url('sirniki.png');background-size: cover;border-radius:20px;}
    /* .pic1:hover{} */
