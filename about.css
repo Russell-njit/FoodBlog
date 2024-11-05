@@ -24,12 +24,24 @@ nav ul li a{
 
 h2{text-align:center;font-size:45px;color:#413931;}
 p{text-decoration: none;margin:20px 35px;font-size:30px;color:#413931;}
-@media (width:270px) {div{transition:all;transition-duration:2s;}}
 
-.big-box{z-index:-1; background-color:white; position:absolute;  width:850px; height:850px; border-radius:60px; left:305px; top:150px; border: 2px solid #c48e64;}
+.big-box{z-index:-1; background-color:white; position:absolute;  width:850px; height:900px; border-radius:60px; left:305px; top:150px; border: 2px solid #c48e64;}
 
 a{
     text-align: center;
     display: block;
 }
 
+.footer{z-index:-1; margin-top:150px; width:100vw; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:990px;
+    display:flex; flex-direction:row;justify-content:space-evenly;}
+    
+    .division1{display:inline-block; width:200px;text-align:center;}
+    .division2{display:inline-block; width:200px;text-align:center;}
+    .division3{display:inline-block;width:200px;text-align:center;}
+    
+    h3{font-weight:300;margin-bottom:30px;}
+    .division1 a{display:block; text-decoration:none; color:#efefef;margin-bottom:10px;}
+    .for-us-to-review{width:200px;height:75px;border-radius:10px;text-align:center;margin-bottom:25px;outline:none;border:none;}
+    .email{width:175px;height:20px;border-radius:6px;text-align:center;margin-bottom:20px;outline:none;border:none;}
+    form button{background:transparent; border: 2px solid #fff; color: #fff;border-radius:30px;padding:10px 30px; font-size:15px;}
+    .social-media-icons-footer{margin-top:45px;}
