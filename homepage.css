@@ -28,13 +28,15 @@ nav ul li a{
 h2{text-align:center;font-size:45px;color:#413931;}
 p{text-decoration: none; font-size:30px;color:#413931;margin-left: 20px; margin-right: 20px;}
 a{text-decoration-line: none;color:#c48e64;}
-@media (width:270px) {div{transition:all;transition-duration:2s;}}
+@media (width:270px) {div{transition:all;transition-duration:1s;}}
 
 .big-box{z-index:-1; background-color:white; position:absolute;  width:850px; height:1500px; border-radius:60px; left:305px; top:275px; border: 2px solid #c48e64;}
 .mid-box1{width:100%; background-color:transparent;height:250px;display:flex; flex-direction:row; justify-content:space-evenly; margin-bottom:10px;margin-top:30px;}
-.pic1{width:270px;height:250px;background-image: url('sirniki.png');background-size: cover;border-radius:20px;}
-   /* .pic1:hover{} */
+.pic1{width:270px;height:250px;background-image: url('sirniki.png');background-size: cover;border-radius:20px;color:transparent;}
+   .pic1:hover{background-color:white; opacity:0.5; color:#413931; text-align:center; /*transition-duration: 0.5s;*/}
+   
 .pic2{width:270px;height:250px;background-image: url('Borsch.png');background-size: cover;border-radius:20px;}
+   .pic2:hover{background-color:white; opacity:0.5;}
 .pic3{width:270px;height:250px;background-image: url('Kulaga.jpg');background-size: cover;border-radius:20px;}
 
 .mid-box2{width:100%; background-color:transparent; height:250px;display:flex; flex-direction:row; justify-content:space-evenly;margin-bottom:10px;}
@@ -48,7 +50,7 @@ a{text-decoration-line: none;color:#c48e64;}
 .pic9{width:270px;height:250px;background-image: url('Vegetable-Pulav.png');background-size: cover;border-radius:20px;}
 
 
-.footer{z-index:-1; margin-top:150px; width:100vw; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:1700px;
+.footer{z-index:-1; margin-top:150px; width:100%; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:1700px;
     display:flex; flex-direction:row;justify-content:space-evenly;}
     
     .division1{display:inline-block; width:200px;text-align:center;}
@@ -56,10 +58,11 @@ a{text-decoration-line: none;color:#c48e64;}
     .division3{display:inline-block;width:200px;text-align:center;}
     
     h3{font-weight:300;margin-bottom:30px;}
-    .division1 a{display:block; text-decoration:none; color:#efefef;margin-bottom:10px;}
+    .division1 a{display:block; text-decoration:none; color:#fff;margin-bottom:10px;}
     .for-us-to-review{width:200px;height:75px;border-radius:10px;text-align:center;margin-bottom:25px;outline:none;border:none;}
     .email{width:175px;height:20px;border-radius:6px;text-align:center;margin-bottom:20px;outline:none;border:none;}
     form button{background:transparent; border: 2px solid #fff; color: #fff;border-radius:30px;padding:10px 30px; font-size:15px;}
+    form button:hover{background-color:#fff; color:#413931;}
     .social-media-icons-footer{margin-top:45px;}
 
 #ramengami{
