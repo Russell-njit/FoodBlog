@@ -8,46 +8,233 @@ header{
     border-radius: 10px;
     position:fixed;
 }
-
 nav ul li{
     list-style:none;
     display: inline-block;
     margin-left: 110px;
     margin-right: 75px;
 }
-
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-size: 18px; 
+    font-size: 18px;
 }
 *{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
-
-
-h2{text-align:center;font-size:45px;color:#413931;}
-p{text-decoration: none; font-size:30px;color:#413931;margin-left: 20px; margin-right: 20px;}
-a{text-decoration-line: none;color:#c48e64;}
+h2{
+    text-align:center;
+    font-size:45px;
+    color:#413931;}
+p{
+    text-decoration: none; 
+    font-size:30px;color:#413931;
+    margin-left: 20px; 
+    margin-right: 20px;}
+a{
+    text-decoration-line: none;
+    color:#c48e64;}
 @media (width:270px) {div{transition:all;transition-duration:1s;}}
+.big-box{
+    z-index:-1; 
+    background-color:white; 
+    position:absolute;  
+    width:850px; 
+    height:1500px; 
+    border-radius:60px; 
+    left:305px;
+    top:275px;
+    border: 2px solid #c48e64;}
+.mid-box1{
+    width:100%; 
+    background-color:transparent;
+    height:250px;
+    display:flex; 
+    flex-direction:row; 
+    justify-content:space-evenly;
+    margin-bottom:10px;
+    margin-top:30px;}
 
-.big-box{z-index:-1; background-color:white; position:absolute;  width:850px; height:1500px; border-radius:60px; left:305px; top:275px; border: 2px solid #c48e64;}
-.mid-box1{width:100%; background-color:transparent;height:250px;display:flex; flex-direction:row; justify-content:space-evenly; margin-bottom:10px;margin-top:30px;}
-.pic1{width:270px;height:250px;background-image: url('sirniki.png');background-size: cover;border-radius:20px;color:transparent;}
-   .pic1:hover{background-color:white; opacity:0.5; color:#413931; text-align:center; /*transition-duration: 0.5s;*/}
-   
-.pic2{width:270px;height:250px;background-image: url('Borsch.png');background-size: cover;border-radius:20px;}
-   .pic2:hover{background-color:white; opacity:0.5;}
-.pic3{width:270px;height:250px;background-image: url('Kulaga.jpg');background-size: cover;border-radius:20px;}
+/*.pic1 span{
+    position: relative;
+    z-index: 1; 
+    font-size: 40px;
+    color: #413931;
+    }
+*/
+.reviewsend a{z-index:2;width:270px; height:250px; left:0;top:0;color:transparent;}
+.pic1{
+    width:270px; height:250px; background-image: url('sirniki.png'); background-size: cover; border-radius:20px; border:#c48e64 solid 2px;position: relative; text-align: center; display: flex;}
+.pic1::before{
+    content: "Sirniki";
+    font-size: 40px;
+    align-content: center;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0; 
+    border-radius: 20px;
+    transition:0.2s ease;}
+.pic1:hover::before{
+    opacity: 0.5;}
+
+.pic2{
+    width:270px; height:250px; background-image: url('Borsch.png'); background-size: cover; border-radius:20px; border:#c48e64 solid 2px; position: relative;  text-align: center; display: flex;}
+.pic2::before{
+    content: "Borscht";
+    font-size: 40px;
+    align-content: center;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0; 
+    border-radius: 20px;
+    transition:0.2s ease;}
+.pic2:hover::before{
+    opacity: 0.5;}
+
+.pic3{
+    width:270px; height:250px; background-image: url('Kulaga.jpg');background-size: cover; border-radius:20px; border:#c48e64 solid 2px; position: relative;  text-align: center; display: flex;}
+.pic3::before{
+    content: "Kulaga";
+    font-size: 40px;
+    align-content: center;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0; 
+    border-radius: 20px;
+    transition:0.2s ease;}
+.pic3:hover::before{
+    opacity: 0.5;}
 
 .mid-box2{width:100%; background-color:transparent; height:250px;display:flex; flex-direction:row; justify-content:space-evenly;margin-bottom:10px;}
-.pic4{width:270px;height:250px;background-image: url('Pork-Sinigang.jpg');background-size: cover;border-radius:20px;}
-.pic5{width:270px;height:250px;background-image: url('pancit-canton.jpg');background-size: cover;border-radius:20px;}
-.pic6{width:270px;height:250px;background-image: url('chicken-adobo.jpg');background-size: cover;border-radius:20px;}
+
+.pic4{
+    width:270px; height:250px; background-image: url('Pork-Sinigang.jpg');background-size: cover; border-radius:20px; border:#c48e64 solid 2px; position: relative;  text-align: center; display: flex;}
+.pic4::before{
+    content: "Pork Sinigang";
+    font-size: 40px;
+    align-content: center;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0; 
+    border-radius: 20px;
+    transition:0.2s ease;}
+.pic4:hover::before{
+    opacity: 0.5;}
+
+.pic5{width:270px; height:250px; background-image: url('pancit-canton.jpg');background-size: cover; border-radius:20px; border:#c48e64 solid 2px; position: relative;  text-align: center; display: flex;}
+.pic5::before{
+    content: "Pancit Canton";
+    font-size: 40px;
+    align-content: center;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0; 
+    border-radius: 20px;
+    transition:0.2s ease;}
+.pic5:hover::before{
+    opacity: 0.5;}
+
+.pic6{width:270px; height:250px; background-image: url('chicken-adobo.jpg');background-size: cover; border-radius:20px; border:#c48e64 solid 2px; position: relative;  text-align: center; display: flex;}
+.pic6::before{
+    content: "Chicken Adobo";
+    font-size: 40px;
+    align-content: center;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0; 
+    border-radius: 20px;
+    transition:0.2s ease;}
+.pic6:hover::before{
+    opacity: 0.5;}
 
 .mid-box3{width:100%; background-color:transparent; height:250px;display:flex; flex-direction:row; justify-content:space-evenly;}
-.pic7{width:270px;height:250px;background-image: url('Plain-Dosa.png');background-size: cover;border-radius:20px;}
-.pic8{width:270px;height:250px;background-image: url('Bhaji-Pav.png');background-size: cover;border-radius:20px;}
-.pic9{width:270px;height:250px;background-image: url('Vegetable-Pulav.png');background-size: cover;border-radius:20px;}
+
+.pic7{
+    width:270px; height:250px; background-image: url('Plain-Dosa.png');background-size: cover; border-radius:20px; border:#c48e64 solid 2px; position: relative;  text-align: center; display: flex;}
+.pic7::before{
+    content: "Plain Dosa";
+    font-size: 40px;
+    align-content: center;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0; 
+    border-radius: 20px;
+    transition:0.2s ease;}
+.pic7:hover::before{
+    opacity: 0.5;}
+    
+.pic8{
+    width:270px; height:250px; background-image: url('Bhaji-Pav.png');background-size: cover; border-radius:20px; border:#c48e64 solid 2px; position: relative;  text-align: center; display: flex;}
+.pic8::before{
+    content: "Bhaji Pav";
+    font-size: 40px;
+    align-content: center;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0; 
+    border-radius: 20px;
+    transition:0.2s ease;}
+.pic8:hover::before{
+    opacity: 0.5;}
+
+.pic9{
+    width:270px; height:250px; background-image: url('Vegetable-Pulav.png');background-size: cover; border-radius:20px; border:#c48e64 solid 2px; position: relative;  text-align: center; display: flex;}
+.pic9::before{
+    content: "Vegetable Pulav";
+    font-size: 40px;
+    align-content: center;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0; 
+    border-radius: 20px;
+    transition:0.2s ease;}
+.pic9:hover::before{
+    opacity: 0.5;}
+
 
 
 .footer{z-index:-1; margin-top:150px; width:100%; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:1700px;
