@@ -20,6 +20,8 @@ nav ul li a{
     color: white;
     font-size: 18px; 
 }
+body{background-image: url(241_20241109132500.png); background-attachment: fixed; background-size:cover;}
+
 *{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 .dish_image{margin:0px 100% 30px 215px; display:inline; float:left; width:400px; padding:10px;background-color: #ffe8cb;border: 5px double #c48e64;}
@@ -27,14 +29,13 @@ nav ul li a{
 .dish_name{font-size:50px;font-weight: bold; margin-top:45px; text-align: center;color:#413931;}
 .cuisine_section{font-size:60px;font-weight:bold; margin:75px;text-align:center;color:#413931;}
 
-body{background-image:url('background-image.png');background-size:cover;background-attachment: fixed;}
 
 .island-text-1{z-index:-1; background-color:white; position:absolute; width:850px; height:2900px; border-radius:60px; left:305px; top:275px; border: 2px solid #c48e64;}
 .island-text-2{z-index:-1; background-color:white; position:absolute; width:850px; height:3125px; border-radius:60px; top:2950px; border: 2px solid #c48e64;}
 .island-text-3{z-index:-1; background-color:white; position:absolute; width:850px; height:2725px; border-radius:60px; top:3175px; border: 2px solid #c48e64; }
 
 
- .footer{z-index:-1; margin-top:150px; width:100%; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:9125px;
+ .footer{z-index:-1; margin-top:150px; width:100%; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:9050px;
 display:flex; flex-direction:row;justify-content:space-evenly;}
 
 .division1{display:inline-block; width:200px;text-align:center;}
@@ -48,10 +49,3 @@ h3{font-weight:300;margin-bottom:30px;}
 form button{background:transparent; border: 2px solid #fff; color: #fff;border-radius:30px;padding:10px 30px; font-size:15px;}
 form button:hover{background-color:#fff; color:#413931;}
 .social-media-icons-footer{margin-top:45px;}
-
-
-
-/*STICKING FOOTER TO THE BOTTOM (via Guide/ it doesn't work :/)
-#page-container{position:relative;min-height:100vh;}
-#content-wrap{padding-bottom:2.5rem;}  ------ footer height
-.footer{position:absolute;margin-top:150px;bottom:0;width:100%;height:2.5rem; padding: 100px 15%;background-color:black;} */
