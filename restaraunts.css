@@ -87,3 +87,15 @@ body{
 }
 .footer{z-index:-1; margin-top:150px; width:100%; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:2250px;
     display:flex; flex-direction:row;justify-content:space-evenly;}
+    
+    .division1{display:inline-block; width:200px;text-align:center;}
+    .division2{display:inline-block; width:200px;text-align:center;}
+    .division3{display:inline-block;width:200px;text-align:center;}
+    
+    h3{font-weight:300;margin-bottom:30px;}
+    .division1 a{display:block; text-decoration:none; color:#fff;margin-bottom:10px;}
+    .for-us-to-review{width:200px;height:75px;border-radius:10px;text-align:center;margin-bottom:25px;outline:none;border:none;}
+    .email{width:175px;height:20px;border-radius:6px;text-align:center;margin-bottom:20px;outline:none;border:none;}
+    form button{background:transparent; border: 2px solid #fff; color: #fff;border-radius:30px;padding:10px 30px; font-size:15px;}
+    form button:hover{background-color:#fff; color:#413931;}
+    .social-media-icons-footer{margin-top:45px;}
