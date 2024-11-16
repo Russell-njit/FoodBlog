@@ -20,82 +20,341 @@ nav ul li a{
     font-size: 18px;
 }
 body{
-    background-image: url(241_20241109132500.png); background-attachment: fixed; background-size:cover;
+    background-image: url(241_20241109132500.png); 
+    background-attachment: fixed; 
+    background-size:cover;
 }
 *{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+#restaurant_image{
+    border: 5px double #c48e64; 
+    background-color: #ffe8cb;
+    width:400px;
 }
 .Ramen{
-    top: 150px;
-    left: 480px;
+    top: 275px;
+    left: 455px;
     background-color: white;
     display: block;
-    height: 400px;
-    width: 500px;
+    height: 500px;
+    width: 550px;
+    padding-top: 75px;
     border: rgb(189, 107, 66) 2px solid;
     border-radius: 60px;
     text-align: center;
     position: absolute;
+    font-size:30px;
+    color:#413931;
 }
 .Filipino{
-    top: 600px;
-    left: 480px;
+    top: 925px;
+    left: 455px;
     background-color: white;
     display: block;
-    height: 400px;
-    width: 500px;
+    height: 500px;
+    width: 550px;
+    padding-top: 75px;
     border: rgb(189, 107, 66) 2px solid;
     border-radius: 60px;
     text-align: center;
     position: absolute;
+    font-size:30px;
+    color:#413931;
 }
 .Fusion{
-    top: 1050px;
-    left: 480px;
+    top: 1575px;
+    left: 455px;
     background-color: white;
     display: block;
-    height: 400px;
-    width: 500px;
+    height: 550px;
+    width: 550px;
+    padding-top: 75px;
     border: rgb(189, 107, 66) 2px solid;
     border-radius: 60px;
     text-align: center;
     position: absolute;
+    font-size:30px;
+    color:#413931;
 }
 .Ocean{
-    top: 1500px;
-    left: 480px;
+    top: 2275px;
+    left: 455px;
     background-color: white;
     display: block;
-    height: 400px;
-    width: 500px;
+    height: 465px;
+    width: 550px;
+    padding-top: 75px;
     border: rgb(189, 107, 66) 2px solid;
     border-radius: 60px;
     text-align: center;
     position: absolute;
+    font-size:30px;
+    color:#413931;
 }
 .Oleandr{
-    top: 1950px;
-    left: 480px;
+    top: 2890px;
+    left: 455px;
     background-color: white;
     display: block;
-    height: 400px;
-    width: 500px;
+    height: 535px;
+    width: 550px;
+    padding-top: 75px;
     border: rgb(189, 107, 66) 2px solid;
     border-radius: 60px;
     text-align: center;
     position: absolute;
+    font-size:30px;
+    color:#413931;
 }
-.footer{z-index:-1; margin-top:150px; width:100%; padding-top: 75px; padding-bottom: 45px;left:0; background:#413931; color:#efefef; position:absolute; top:2250px;
-    display:flex; flex-direction:row;justify-content:space-evenly;}
-    
-    .division1{display:inline-block; width:200px;text-align:center;}
-    .division2{display:inline-block; width:200px;text-align:center;}
-    .division3{display:inline-block;width:200px;text-align:center;}
-    
-    h3{font-weight:300;margin-bottom:30px;}
-    .division1 a{display:block; text-decoration:none; color:#fff;margin-bottom:10px;}
-    .for-us-to-review{width:200px;height:75px;border-radius:10px;text-align:center;margin-bottom:25px;outline:none;border:none;}
-    .email{width:175px;height:20px;border-radius:6px;text-align:center;margin-bottom:20px;outline:none;border:none;}
-    form button{background:transparent; border: 2px solid #fff; color: #fff;border-radius:30px;padding:10px 30px; font-size:15px;}
-    form button:hover{background-color:#fff; color:#413931;}
-    .social-media-icons-footer{margin-top:45px;}
+.ramen-gami-pic a{
+    z-index:2;
+    width:400px; 
+    height:309px; 
+    left:0;
+    top:0;
+    color:transparent;
+}
+.ramen-gami-pic{
+    width:400px; 
+    height:309px;
+    margin-left: 75px; 
+    background-image: url('ramengami.jpg');
+    background-size:cover; 
+    border: 5px groove #c48e64; 
+    position:relative;
+    text-align:center; 
+    display:flex;
+}
+.ramen-gami-pic::before{
+    content: "Ramen Gami";
+    font-size: 40px;
+    align-content: center;
+    color: #ffe8cb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #140c04;
+    opacity: 0;
+    transition:0.2s ease;
+}
+.ramen-gami-pic:hover::before{
+    opacity: 0.5;
+}
+.filipino-pic a{
+    z-index:2;
+    width:400px; 
+    height:276px; 
+    left:0;
+    top:0;
+    color:transparent;
+}
+.filipino-pic{
+    width:400px; 
+    height:276px; 
+    margin-left: 75px; 
+    background-image: url('filipino-food.jpeg');
+    background-size:cover; 
+    border: 5px groove #c48e64; 
+    position:relative;
+    text-align:center; 
+    display:flex;
+}
+.filipino-pic::before{
+    content: "Flip Vibes Kanto Style";
+    font-size: 40px;
+    align-content: center;
+    color: #ffe8cb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #140c04;
+    opacity: 0;
+    transition:0.2s ease;
+}
+.filipino-pic:hover::before{
+    opacity: 0.5;
+}
+.fusion-pic a{
+    z-index:2;
+    width:400px; 
+    height:266px; 
+    left:0;
+    top:0;
+    color:transparent;
+}
+.fusion-pic{
+    width:400px; 
+    height:266px; 
+    margin-left: 75px; 
+    background-image: url('image.png');
+    background-size:cover; 
+    border: 5px groove #c48e64; 
+    position:relative;
+    text-align:center; 
+    display:flex;
+}
+.fusion-pic::before{
+    content: "Fusion Bites of India";
+    font-size: 40px;
+    align-content: center;
+    color: #ffe8cb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #140c04;
+    opacity: 0;
+    transition:0.2s ease;
+}
+.fusion-pic:hover::before{
+    opacity: 0.5;
+}
+.ocean-pic a{
+    z-index:2;
+    width:400px; 
+    height:220px; 
+    left:0;
+    top:0;
+    color:transparent;
+}
+.ocean-pic{
+    width:400px; 
+    height:220px; 
+    margin-left: 75px; 
+    background-image: url('scale_1200.png');
+    background-size:cover; 
+    border: 5px groove #c48e64; 
+    position:relative;
+    text-align:center; 
+    display:flex;
+}
+.ocean-pic::before{
+    content: "Ocean View Cafe";
+    font-size: 40px;
+    align-content: center;
+    color: #ffe8cb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #140c04;
+    opacity: 0;
+    transition:0.2s ease;}
+.ocean-pic:hover::before{
+    opacity: 0.5;
+}
+.oleandr-pic a{
+    z-index:2;
+    width:400px; 
+    height:300px; 
+    left:0;
+    top:0;
+    color:transparent;
+}
+.oleandr-pic{
+    width:400px; 
+    height:300px; 
+    margin-left: 75px; 
+    background-image: url('oleandr.png');
+    background-size:cover; 
+    border: 5px groove #c48e64; 
+    position:relative;
+    text-align:center; 
+    display:flex;
+}
+.oleandr-pic::before{
+    content: "Oleandr";
+    font-size: 40px;
+    align-content: center;
+    color: #ffe8cb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #140c04;
+    opacity: 0;
+    transition:0.2s ease;}
+.oleandr-pic:hover::before{
+    opacity: 0.5;
+}
+.footer{
+    z-index:-1; 
+    margin-top:150px; 
+    width:100%; 
+    padding-top: 75px; 
+    padding-bottom: 45px;
+    left:0;
+    background:#413931; 
+    color:#efefef; 
+    position:absolute; 
+    top:3425px;
+    display:flex; 
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.division1{
+    display:inline-block; 
+    width:200px;
+    text-align:center;
+}
+.division2{
+    display:inline-block;
+    width:200px;
+    text-align:center;
+}
+.division3{
+    display:inline-block;
+    width:200px;
+    text-align:center;
+}
+h3{
+    font-weight:300;
+    margin-bottom:30px;
+}
+.division1 a{
+    display:block; 
+    text-decoration:none; 
+    color:#fff;
+    margin-bottom:10px;
+}
+.for-us-to-review{
+    width:200px;
+    height:75px;
+    border-radius:10px;
+    text-align:center;
+    margin-bottom:25px;
+    outline:none;
+    border:none;
+}
+.email{
+    width:175px;
+    height:20px;
+    border-radius:6px;
+    text-align:center;
+    margin-bottom:20px;
+    outline:none;
+    border:none;
+}
+form button{
+    background:transparent; 
+    border: 2px solid #fff; 
+    color: #fff;
+    border-radius:30px;
+    padding:10px 30px; 
+    font-size:15px;
+}
+form button:hover{
+    background-color:#fff; 
+    color:#413931;
+}
+.social-media-icons-footer{
+    margin-top:45px;
+}
