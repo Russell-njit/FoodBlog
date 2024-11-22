@@ -1,10 +1,10 @@
 header{
-    z-index:1;
+    z-index:2;
     background-color: #F4A166;
-    height: 60px;
+    height:70px;
+    padding:5px;
     left:5px;
     right:5px;
-    padding: 10px;
     border-radius: 10px;
     position:fixed;
 }
@@ -14,10 +14,27 @@ nav ul li{
     margin-left: 75px;
     margin-right: 75px;
 }
+nav ul li input{
+    padding:5px 15px;
+    border-radius:10px;
+    border:transparent;
+    text-align:center;
+}
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 18px; 
+}
+.nav-bar-button{
+    background:transparent; 
+    border: 2px solid #fff; 
+    color: #fff;
+    border-radius:15px;
+    padding: 10px 20px;
+}
+.nav-bar-button:hover{
+    background-color:#fff; 
+    color:#F4A166;
 }
 body{
     background-image: url(241_20241109132500.png); 
@@ -108,7 +125,7 @@ body{
     color:#413931;
 }
 .ramen-gami-pic a{
-    z-index:2;
+    
     width:400px; 
     height:309px; 
     left:0;
@@ -144,7 +161,7 @@ body{
     opacity: 0.5;
 }
 .filipino-pic a{
-    z-index:2;
+    
     width:400px; 
     height:276px; 
     left:0;
@@ -180,7 +197,7 @@ body{
     opacity: 0.5;
 }
 .fusion-pic a{
-    z-index:2;
+   
     width:400px; 
     height:266px; 
     left:0;
@@ -216,7 +233,7 @@ body{
     opacity: 0.5;
 }
 .ocean-pic a{
-    z-index:2;
+    
     width:400px; 
     height:220px; 
     left:0;
@@ -251,7 +268,7 @@ body{
     opacity: 0.5;
 }
 .oleandr-pic a{
-    z-index:2;
+   
     width:400px; 
     height:300px; 
     left:0;
